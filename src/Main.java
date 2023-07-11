@@ -121,8 +121,7 @@ public class Main {
         System.out.println("Всего работников в компании: " + totalEmployees + " человек ");
 
         var workingHouseBetweenEmployees = (totalEmployees + moreEmployees) * oneEmployeeHours;
-        System.out.println("Если в компании рабоатет 80 человек, то всего " +
-                workingHouseBetweenEmployees + " часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании рабоатет 80 человек, то всего " + workingHouseBetweenEmployees + " часов работы может быть поделено между сотрудниками");
     }
 
 }
